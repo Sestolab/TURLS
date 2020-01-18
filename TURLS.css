@@ -1,0 +1,25 @@
+#turls{
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+#turls td:not(.actions){
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 0;
+}
+
+#turls td:nth-child(1){
+	width: 50%;
+}
+
+#turls input{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#turls th, #turls td:not(:nth-of-type(1)){
+	text-align: center !important;
+}
